@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+#container{
+    width:100%;
+    height: 100vh;
+   *
+}
+
+    
+/* .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: black;
+   
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.logo{
+    font-size: 2.5rem;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+   margin-left: 1rem;
+
+} */
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 70px;
+  
+  
+   
+}
+#himsi{
+    color: white;
+ margin-left: 10px;
+ margin-top: 10px;
+}
+#eleven{
+    display: none;
+}
+/* #rocky{
+    margin-top: -80px;
+  
+} */
+.navbar{
+    display: flex;
+ 
+
+}
+#origin{
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 40px;
+    list-style: none;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+   color: white;
+
+}
+#check{
+    display: none;
+}
+.icons{
+    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    right: 5%;
+    display: none;
+}
+
+
+
+.homesection{
+    width: 100%;
+    height:500px;
+    background-image: url('https://d39l2hkdp2esp1.cloudfront.net/img/photo/181745/181745_00_2x.jpg?20190821100051');
+    background-size: cover;
+}
+.mainhead{
+    text-align: justify;
+    color: white;
+   
+    font-weight: 600;
+    padding-top: 80px;
+    padding-left: 150px;
+
+   
+
+}
+.subhead{
+    text-align:Justify;
+    color: white;
+    font-size: smaller; 
+    padding-left: 150px;
+    margin: 20px;
+}
+.btn{
+ 
+    margin-left: 200px;
+    background-color: orange;
+}
+.aboutsection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+.abouthead{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color: orange;
+
+}
+.aboutsubhead{
+  padding: 25px;
+padding-left: 150px;
+text-align: justify;
+}
+.abtbtn{
+    margin-left: 200px;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+.abtimg{
+    width:300px;
+    height:250px;
+    flex: nowrap;
+}
+.gallerysubhead{
+    text-align: center;
+    margin: 10px;
+}
+
+   
+
+
+.galimg{
+    margin-top: 50px;
+    margin-left:150px ;
+}
+.galimg1{
+    
+    margin-left:150px ;
+}
+.galimg2{
+    
+    margin-left:200px ;
+    margin-top: 50px;
+}
+.col{
+    width: 300px;
+    height:250px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+   
+}
+#favourites{
+    margin:50% 0px 0px 0px;
+    
+}
+.galleryimages{
+    flex:nowrap;
+}
+.cfimage{
+    margin: 10px;
+}
+.col1{
+    width: 300px;
+    height:250px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+    background-color:beige;
+    margin-left: 80px;
+}
+.chead{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-align: center;
+    color: orange;
+}
+
+.cfsubhead{
+    font-size: smaller;
+    text-align: center;
+}
+.favouritesection{
+    flex: nowrap;
+}
+
+button{
+    background-color: orange;
+    color: white;
+    border-radius: 1px solid;
+
+}
+#contactinfo{
+    margin: 65% 0px 0px 0px;
+}
+.contact{
+    width:100%;
+    height:120px;
+    font-weight: 600;
+ 
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+     flex-direction: row;
+     align-items: center;
+     color: white;
+     
+}
+.contacthead{
+    display: flex;
+    justify-content: space-between;
+     flex-direction: column;
+     align-items: center;
+     color: white;
+     font-size: small;
+     font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width:760px){
+    .icons{
+        display: flex;
+    }
+   #closeIcon{
+    display: none;
+   }
+   #check:checked~.icons #menuIcon{
+    display: none;
+
+   }
+   #check:checked~.icons #closeIcon{
+    display: block;
+   }
+  .galleryimages{
+    flex:nowrap;
+  }
+  .favouritesection{
+    flex: wrap;
+  }
+  .aboutimg{
+    flex: wrap;
+  }
+}
